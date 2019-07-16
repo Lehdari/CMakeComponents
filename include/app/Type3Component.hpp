@@ -1,0 +1,10 @@
+//
+// Created by Lehdari on 16.7.2019.
+//
+
+#ifndef CMAKECOMPONENTS_TYPE3COMPONENT_HPP
+#define CMAKECOMPONENTS_TYPE3COMPONENT_HPP
+
+class Type3Component {};
+
+#endif //CMAKECOMPONENTS_TYPE3COMPONENT_HPP
