@@ -26,8 +26,7 @@ private:
     template <typename T_Component>
     static constexpr int64_t typeIdPrivate(TypeRegister<>)
     {
-        static_assert(IdRegistered<T_Component>::value,
-            "Component type not registered in CMakeLists.txt!");
+        static_assert(IdRegistered<T_Component>::value, COMPONENT_TYPE_ERROR_MESSAGE);
         return -1;
     }
 
